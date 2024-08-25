@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test.js"></script>
+    <title>Test</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background: url('images/cat.jpeg') no-repeat fixed ;
+    }
+</style>
+<body>
+    <div>Div</div>
+    <button id="button" onclick="change_text()">Click me</button>
+    <p id="p">hello</p>
+</body>
+<script>
+    function change_text(){
+        document.getElementById("p").innerHTML="dont click me"
+        
+    }
+</script>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="home">
+        <div class="overlay">
+        <div id="text">
+            <h1 id="quizname">Quiz Galaxy</h1>
+            <p id="quizdescription">Test your knowledge!</p>
+            <button id="startbutton" onclick="ask_ctg()">Start Quiz</button>
+        </div>
+        </div>
+    </div>
+    <div id="ctg">
+        <div class="overlay"> 
+            <div id="text">
+                <p id="arrow" onclick="home()">&#8593;</p>
+                <h1 id="ctgs">Choose Category</h1>
+                <div class="ctgname">
+                    <p class="ctgn" onclick="sci()">Science</p>
+                    <p class="ctgn" onclick="his()">History</p>
+                    <p class="ctgn" onclick="lit()">Literature</p>
+                    <p class="ctgn" onclick="geo()">Geography</p>
+                    <p class="ctgn" onclick="tec()">Technology</p>
+                    <p class="ctgn" onclick="ent()">Entertainment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Science -->
+    <div class="questions"  id="sci"> 
+        <div class="overlay"> 
+            <h1 class="h_style">Science</h1>
+            <form>
+                <div class="box">
+                <label>1) Which planet is known as the Red Planet?</label>
+                <br>              
+                <br>
+                <input type="radio" name="" id=""><span class="inputs">Venus</span>
+                <input type="radio" name="" id=""><span class="inputs">Mars</span>
+                <input type="radio" name="" id=""><span class="inputs">Jupiter</span>
+                <input type="radio" name="" id=""><span class="inputs">Saturn   </span>
+                </div> 
+                <div class="box">            
+                <label>2) How many bones are in the adult human body?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">206</span>
+                <input type="radio" name="" id=""><span class="inputs">208</span>
+                <input type="radio" name="" id=""><span class="inputs">210</span>
+                <input type="radio" name="" id=""><span class="inputs">212  </span>
+                </div>     
+                <div class="box">         
+                <label>3) What is the chemical symbol for gold?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">Au</span>
+                <input type="radio" name="" id=""><span class="inputs">Ag</span>
+                <input type="radio" name="" id=""><span class="inputs">Fe</span>
+                <input type="radio" name="" id=""><span class="inputs">Hg  </span>
+                </div>             
+                <div class="box">         
+                <label>4) What is the speed of light in a vacuum?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">300,000 km/s</span>
+                <input type="radio" name="" id=""><span class="inputs">150,000 km/s</span>
+                <input type="radio" name="" id=""><span class="inputs">450,000 km/s</span>
+                <input type="radio" name="" id=""><span class="inputs">600,000 km/s</span>
+                </div>
+                <div class="box">         
+                <label>5) What is the powerhouse of the cell?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">Nucleus</span>
+                <input type="radio" name="" id=""><span class="inputs">Ribosome</span>
+                <input type="radio" name="" id=""><span class="inputs">Mitochondrion</span>
+                <input type="radio" name="" id=""><span class="inputs">Endoplasmic Reticulum</span>  
+                </div>              
+                <button type="submit" class="btn" >Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- History -->
+    <div class="questions"  id="his"> 
+        <div class="overlay"> 
+            <h1 class="h_style">Science</h1>
+            <form>
+                <div class="box">
+                <label>1) Which planet is known as the Red Planet?</label>
+                <br>              
+                <br>
+                <input type="radio" name="" id=""><span class="inputs">Venus</span>
+                <input type="radio" name="" id=""><span class="inputs">Mars</span>
+                <input type="radio" name="" id=""><span class="inputs">Jupiter</span>
+                <input type="radio" name="" id=""><span class="inputs">Saturn   </span>
+                </div> 
+                <div class="box">            
+                <label>2) How many bones are in the adult human body?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">206</span>
+                <input type="radio" name="" id=""><span class="inputs">208</span>
+                <input type="radio" name="" id=""><span class="inputs">210</span>
+                <input type="radio" name="" id=""><span class="inputs">212  </span>
+                </div>     
+                <div class="box">         
+                <label>3) What is the chemical symbol for gold?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">Au</span>
+                <input type="radio" name="" id=""><span class="inputs">Ag</span>
+                <input type="radio" name="" id=""><span class="inputs">Fe</span>
+                <input type="radio" name="" id=""><span class="inputs">Hg  </span>
+                </div>             
+                <div class="box">         
+                <label>4) What is the speed of light in a vacuum?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">300,000 km/s</span>
+                <input type="radio" name="" id=""><span class="inputs">150,000 km/s</span>
+                <input type="radio" name="" id=""><span class="inputs">450,000 km/s</span>
+                <input type="radio" name="" id=""><span class="inputs">600,000 km/s</span>
+                </div>
+                <div class="box">         
+                <label>5) What is the powerhouse of the cell?</label>  
+                <br>              
+                <br>              
+                <input type="radio" name="" id=""><span class="inputs">Nucleus</span>
+                <input type="radio" name="" id=""><span class="inputs">Ribosome</span>
+                <input type="radio" name="" id=""><span class="inputs">Mitochondrion</span>
+                <input type="radio" name="" id=""><span class="inputs">Endoplasmic Reticulum</span>  
+                </div>              
+                <button type="submit" class="btn" >Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
