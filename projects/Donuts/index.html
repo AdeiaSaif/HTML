@@ -4,28 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Best Selling</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#"><span class="yum">Yummy Donuts</span></a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></a></li>
-        </ul>
-    </nav>
-    <div class="banner"></div>
-    <div class="best_selling">
-        <h2>Best Selling</h2>
+    <div class="overlay">
+    
+    <div id="banner">
+        <nav>
+            <ul>
+                <li><a href="#best_selling">Best Selling</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li  class="yum"><a href="#banner">Yummy Donuts</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#contactus">Contact</a></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Best Selling -->
+    <div id="best_selling">
+        <h1>Best Selling</h1>
         <div class="images">
-            <div class="d1">
-                <h1></h1>
+            <div class="d-img">
+                <img src="images/d10.jpg" class="img" width="250px" >
+                <h3>Chocolate Donut</h3>
+                <p class="price">$2.00</p>
             </div>
+            <div class="d-img">
+                <img src="images/d9.jpg" class="img"  width="250px" >
+                <h3>Donut </h3>
+                <p class="price">$2.00</p>
+            </div>
+            <div class="d-img">
+                <img src="images/d7.jpg" class="img"  width="250px" >
+                <h3>Strawberry Donut</h3>
+                <p class="price">$2.00</p>
+            </div>
+            
             <div class="d2"></div>
             <div class="d3"></div>
         </div>
     </div>
+    <!-- About us -->
+     <div id="aboutus">
+        <h2>ABOUT US</h2>
+        <p class="au">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusantium obcaecati officia quo, odit corrupti laudantium asperiores natus quia. Officiis adipisci quos quasi repudiandae id dolore quod error culpa eveniet.</p>
+     </div>
+
+     <!-- Gallery -->
+    <div id="Gallery">
+       <center> <h1>Gallery</h1></center>
+        <div class="images">
+            <div class="d-imgs">
+                <img src="images/d2.jpg" class="imgs" width="250px"  height="250">
+            </div>
+            <div class="d-imgs">
+                <img src="images/d3.jpg" class="imgs"  width="250px"  height="250">
+            </div>
+            <div class="d-imgs">
+                <img src="images/d4.jpg" class="imgs"  width="250px"  height="250">
+            </div>
+            
+            <div class="d2"></div>
+            <div class="d3"></div>
+        </div>
+        <div class="images">
+            <div class="d-imgs">
+                <img src="images/d5.jpg" class="imgs" width="250px" height="250">
+                
+            </div>
+            <div class="d-imgs">
+                <img src="images/d6.jpg" class="imgs"  width="250px" height="250" >
+            </div>
+            <div class="d-imgs">
+                <img src="images/d8.jpg" class="imgs"  width="250px"  height="250">
+            </div>
+            
+            <div class="d2"></div>
+            <div class="d3"></div>
+        </div>
+    </div>
+</div>
+<!-- contact us -->
+<div id ="contactus">
+   <div style="margin: 150px"> <h1>Contact Us </h1>
+   <center> <i  style="font-size:100px; color: purple;" class="fa fa-instagram" ></i>
+   </center>    </div>
+</div>
+<center>
+<p class="footer">Copywrite  &copy Donuts Mall 2023</p>
+</center>
 </body>
 </html>
