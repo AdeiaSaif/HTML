@@ -1,0 +1,29 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin:30px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    background-image: url("../images/ban.jpg");
+    background-attachment: fixed; 
+    background-size: cover;
+    width: 90%;
+    height: 80vh;
+}
